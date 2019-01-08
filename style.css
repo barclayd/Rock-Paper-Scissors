@@ -1,0 +1,8 @@
+body {
+    background: #003366;
+    color: #fff;
+}
+
+.choices .choice img {
+    max-width: 35%;
+}
