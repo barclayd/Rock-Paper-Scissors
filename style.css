@@ -1,8 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+}
+
+header>h1 {
+    color: #22293a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 body {
-    background: #003366;
+    background: #22293a;
     color: #fff;
 }
 
+
 .choices .choice img {
-    max-width: 35%;
+    max-width: 25%;
+}
+
+.scoreboard {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 8%;
+    font-size: 2.4rem;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.badge {
+    background: #E25840;
+    font-size: 1rem;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 25px;
+    left: -30px;
+}
+
+#ai-label {
+    position: absolute;
+    top: 25px;
+    right: -20px;
+}
+
+.game-status>p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice {
+    display: inline;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 0 25px;
+}
+
+.choice:hover {
+    background: #fff;
+    cursor: pointer;
 }
