@@ -56,7 +56,7 @@ body {
     right: -20px;
 }
 
-.game-status>p {
+.game_status>p {
     text-align: center;
     font-weight: 500;
     font-size: 2.4rem;
