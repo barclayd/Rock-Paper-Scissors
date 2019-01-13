@@ -28,7 +28,7 @@ body {
 }
 
 .scoreboard {
-    border: 3px solid white;
+    border: 3px solid #fff;
     width: 200px;
     margin: 20px auto;
     border-radius: 8%;
@@ -84,6 +84,33 @@ body {
 
 #action-message {
     text-align: center;
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.green-glow {
+    border: 3px solid rgba(67, 160, 71, 1);
+    box-shadow: 0 0 10px rgba(67, 160, 71, 0.3);
+}
+
+.red-glow {
+    border: 3px solid rgba(168, 41, 41, 1);
+    box-shadow: 0 0 10px rgba(168, 41, 41, 0.5);
+}
+
+.grey-glow {
+    border: 3px solid rgba(112, 109, 109, 0.747);
+    box-shadow: 0 0 10px rgba(112, 109, 109, 0.247);
+}
+
+.win-text {
+    color: rgba(15, 114, 20, 1);
+}
+
+.lose-text {
+    color: rgba(168, 41, 41, 1);
+}
+
+.draw-text {
+    color: rgba(112, 109, 109, 1);
 }
