@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors
 Rock Paper Scissors JS game written for browser using HTML, CSS and JS.
 
-### Demo
+### Demo
 
 ![Demo](https://user-images.githubusercontent.com/39765499/51086016-0c648600-1739-11e9-8fac-413548db329e.gif)
 
