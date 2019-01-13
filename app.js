@@ -1,6 +1,6 @@
 // cache collection of DOM elements
-const userScore = 0;
-const aiScore = 0;
+let userScore = 0;
+let aiScore = 0;
 const userScore_span = document.getElementById('user-score');
 const aiScore_span = document.getElementById('ai-score');
 const scoreboard_div = document.querySelector('.scoreboard');
@@ -16,9 +16,47 @@ const getAiChoice = () => {
     return aiChoice;
 }
 
+const userWin = () => {
+    console.log('win');
+    userScore++;
+    userScore_span.innerHTML = userScore;
+};
+
+const userLose = () => {
+    console.log('lose');
+    aiScore++;
+    aiScore_span.innerHTML = userScore;
+}
+
+const draw = () => {
+    console.log('draw');
+}
+
 const game = (userChoice) => {
+    const aiChoice = getAiChoice();
     console.log(`User Selected: ${userChoice}`);
-    console.log(getAiChoice());
+    console.log(`Ai Selected: ${aiChoice}`);
+    switch (userChoice + aiChoice) {
+        case 'rockrock':
+        case 'scissorsscissors':
+        case 'paperpaper':
+            draw();
+            break;
+        case 'rockscissors':
+        case 'paperrock':
+        case 'scissorspaper':
+            userWin();
+            break;
+        case 'rockpaper':
+        case 'scissorsrock':
+        case 'paperscissors':
+            userLose();
+            break;
+    }
+}
+
+const result = (userChoice, getAiChoice) => {
+    let headline;
 }
 
 // event listeners
