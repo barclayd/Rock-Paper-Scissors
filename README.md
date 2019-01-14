@@ -12,7 +12,7 @@ Rock Paper Scissors JS game written for browser using HTML, CSS and JS.
 
 <img width="618" alt="user wins" src="https://user-images.githubusercontent.com/39765499/51086064-b17f5e80-1739-11e9-8944-8f3162051565.png">
 
-##### Ai wins
+##### Ai wins
 
 <img width="618" alt="ai wins" src="https://user-images.githubusercontent.com/39765499/51086065-b217f500-1739-11e9-8615-3d6b48129f08.png">
 
